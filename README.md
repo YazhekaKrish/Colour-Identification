@@ -43,3 +43,5 @@ python color_detection.py -i <add your image path here>
 </h2><b> OUTPUT </b> </h2>
 
 Place the cursor at different spots and the respective name of the colour pops on top of the picture.
+
+<a href="https://www.youtube.com/watch?v=nzjQdsfmoGc">Colour Identification-Youtube</a>
