@@ -10,7 +10,34 @@ In this project, we are going to build an application through which you can auto
 
 Range of colours are made up of 3 primary colours red, green, and blue. In computers, we define each colour value within a range of 0 to 255.That is 256*256*256 = 16,581,375. There are approximately 16.5 million different ways to represent a color. In our dataset, we need to map each color’s values with their corresponding names.
 
-The CSV file for our dataset has been taken from this link:
-<a href=>Visit W3Schools.com!</a>
+The CSV file for our dataset are found in this link:
+<a href="https://github.com/YazhekaKrish/Colour-Identification/blob/main/python-project-color-detection/colors.csv">DATASET</a>
 
+The colors.csv file includes 865 color names along with their RGB and hex values.
+
+</h2><b> REQUIRED LIBRARIES </b> </h2>
+
+The computer vision library of Python that is OpenCV and Pandas must be downloaded.
+OpenCV, Pandas, and numpy are the Python packages that are necessary for this project. 
+
+To install them, simply run this pip command in your terminal:
+```ruby
+pip install opencv-python 
+```
+After downloading opencv succesfully, run the next command.
+```ruby
+pip install pandas
+```
+</h2><b> STEPS TO BE FOLLOWED </b> </h2>
+
+Download the folder from the link:
+<a href="https://github.com/YazhekaKrish/Colour-Identification/blob/main/python-project-color-detection">DOWNLOAD FOLDER</a>
+
+Open the code in python IDLE and run the code in your compiler.
+```ruby
+cd <Enter the path of the dowloaded folder>
+```
+```ruby
+python color_detection.py -i <add your image path here>
+```
 
